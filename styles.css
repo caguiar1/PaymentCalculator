@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    background-color: #8ADFFF;
+
+}
+
+
+
+
+
+
+
+
+/* CALCULATOR BEGINS */
+
+
+/* CALCULATOR BOX */
+
+#calculator{
+
+    margin: 1% 32.5% 1% 32.5%;
+    height: 80vh;
+    width: 35vw;
+    background-color: #FFC68A;
+    
+}
+
+/* Inner Box (The Thing that everything is inside of) */
+
+#innerBox{
+
+    text-align: left;
+    height: 75vh;
+    width: 32.5vw;
+    
+
+}
+
+
+/* PAYMENT CALCULATOR HEADING / TITLE */
+
+#calcTitle{
+    text-align: center;
+    padding-top: 0.5%;
+    font-size: 150%;
+    
+
+}
