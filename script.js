@@ -1,13 +1,15 @@
 
 
-function getSubtotal(){
 
-    let subtotal = document.getElementById("subtotal-box").value;
 
-    console.log(subtotal);
+function getPrice(){
+
+    let price = document.getElementById("price-box").value;
+
+    console.log(price);
 
 
 }
 
-// 
+
 

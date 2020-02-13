@@ -1,56 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Payment Calculator CREATE Task</title>
 
-    <link rel="stylesheet" href="styles.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
 
-</head>
-
-<body>
-<!--  -->
+  <body>
 
     <section id="calculator">
+      <div id="innerBox">
+        <h1>
+          <div id="calcTitle">Payment Calculator</div>
+        </h1>
 
-        <div id="innerBox">
 
 
-            <h1>
-                <div id="calcTitle">Payment Calculator</div>
-            </h1>
+        <!--  LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -->
 
-            <h2> Subtotal: $ <div id="subtotal">
-                
-                <input id="subtotal-box" type="text" oninput="getSubtotal()"> 
-            
-            </div>
+        <div id="left-side">
 
+            <div id="left-side-content">
+
+    <h2>
+                Price: $
+                <div id="price"></div>
             </h2>
 
             <h2>
-                <div id=""></div>
+                Down-Payment: $
+                <div id="down-payment"></div>
             </h2>
 
+            </div>
+        
+        </div>
+
+        <!--  LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -->
+
+
+
+
+        <!-- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -->
+
+
+
+            <div id="middle-divider"></div>
+
+
+
+
+        <!-- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -->
 
 
 
 
 
+        <!-- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -->
 
+        <div id="right-side">
 
+            <div id="right-side-content">
+
+            <input id="price-box" type="text" oninput="getPrice()" />
+
+            </div>
+
+        
 
         </div>
 
-    </section>
+        <!-- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -->
 
+        
+
+
+
+      </div>
+
+    </section>
 
     <script src="script.js"></script>
 
-</body>
+  </body>
 
 </html>

@@ -1,20 +1,71 @@
 body{
     margin: 0px;
-    background-color: #8ADFFF;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: #B8F2E8;
+    font-family: 'Roboto';
+    font-size: 16px;
     
 }
 
 
 /* CSS For Inputs */
 
-#subtotal{
-    display: inline;
+input{
+    border: none;
+    border-bottom: black solid 4px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #AED9E0;
+    
 }
 
-/* t */
+
+/* LEFT SIDE */
+
+#left-side{
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+    
+}
+
+#left-side-content{
+    display: inline-block;
+
+
+
+}
+
+
+/* MIDDLE DIVIDER */
+
+#middle-divider{
+    display: inline-block;
+    align-content: center;
+    height: 70vh;
+    width: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+
+    background-color: #AED9E0;
+
+}
+
+/* RIGHT SIDE */
+
+#right-side{
+    display: inline-block;
+    width: 45%;
+
+}
+
+#right-side-content{
+    display: inline-block;
+}
 
 /* CALCULATOR BEGINS */
+
 
 
 /* CALCULATOR BOX */
@@ -25,7 +76,8 @@ body{
     margin: 1% 32.5% 1% 32.5%;
     height: 80vh;
     width: 35vw;
-    background-color: #FFC68A;
+    background-color: #AED9E0;
+    border: #5E6472 solid 8px;
     
 }
 
