@@ -1,106 +1,139 @@
-body{
-    margin: 0px;
-    background-color: #B8F2E8;
-    font-family: 'Roboto';
-    font-size: 16px;
-    
+body {
+  margin: 0px;
+  background-color: #b8f2e8;
+  font-family: "Roboto";
+  font-size: 1.1em;
 }
 
+.center{
+    float: center;
+    z-index: 99999;
+    align-content: center;
+}
 
 /* CSS For Inputs */
 
-input{
-    border: none;
-    border-bottom: black solid 4px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    background-color: #AED9E0;
-    
+input {
+  border: none;
+  border-bottom: black solid 4px;
+  padding: 12px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #aed9e0;
 }
-
 
 /* LEFT SIDE */
 
-#left-side{
-    display: inline-block;
-    width: 45%;
-    height: 100%;
-    
+#left-side {
+  float: left;
+  width: 45%;
+  height: 100%;
+  text-align: right;
+  position: relative;
 }
 
-#left-side-content{
-    display: inline-block;
-
-
-
+#left-side-content {
+  display: inline-block;
 }
 
+/* SLIDER */
+.payments {
+  font-family: "Roboto";
+  font-size: 1.1em;
+  z-index: 99;
+}
+
+.slidecontainer {
+  width: 25vw;
+  font-family: "Roboto";
+  z-index: 10;
+  position: fixed;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #251ab9;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #251ab9;
+  cursor: pointer;
+}
+
+/* SLIDER */
 
 /* MIDDLE DIVIDER */
 
-#middle-divider{
-    display: inline-block;
-    align-content: center;
-    height: 70vh;
-    width: 1%;
-    margin-left: 2%;
-    margin-right: 2%;
+#middle-divider {
+  float: left;
+  align-content: center;
+  height: 50vh;
+  width: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
 
-
-    background-color: #AED9E0;
-
+  background-color: #aed9e0;
 }
 
 /* RIGHT SIDE */
 
-#right-side{
-    display: inline-block;
-    width: 45%;
-
+#right-side {
+  float: left;
+  width: 45%;
 }
 
-#right-side-content{
-    display: inline-block;
+#right-side-content {
+  display: inline-block;
 }
 
 /* CALCULATOR BEGINS */
 
-
-
 /* CALCULATOR BOX */
 
-#calculator{
-
-    display: inline-block;
-    margin: 1% 32.5% 1% 32.5%;
-    height: 80vh;
-    width: 35vw;
-    background-color: #AED9E0;
-    border: #5E6472 solid 8px;
-    
+#calculator {
+  display: inline-block;
+  margin: 1% 32.5% 1% 32.5%;
+  height: 80vh;
+  width: 30vw;
+  background-color: #aed9e0;
+  border: #5e6472 solid 8px;
 }
 
 /* Inner Box (The Thing that everything is inside of) */
 
-#innerBox{
-    
-    float: center;
-    margin-left: 3.5%;
-    height: 75vh;
-    width: 32.5vw;
-    text-align: left;
-    
-
+#innerBox {
+  float: center;
+  margin-left: 3.5%;
+  height: 75vh;
+  width: 27.5vw;
+  text-align: left;
 }
-
 
 /* PAYMENT CALCULATOR HEADING / TITLE */
 
-#calcTitle{
-    text-align: center;
-    padding-top: 0.5%;
-    font-size: 150%;
-    
-
+#calcTitle {
+  text-align: center;
+  padding-top: 0.5%;
+  font-size: 150%;
 }

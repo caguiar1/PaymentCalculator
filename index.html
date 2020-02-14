@@ -26,23 +26,37 @@
 
 
         <!--  LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -->
-
-        <div id="left-side">
-
-            <div id="left-side-content">
-
-    <h2>
-                Price: $
-                <div id="price"></div>
-            </h2>
-
-            <h2>
-                Down-Payment: $
-                <div id="down-payment"></div>
-            </h2>
-
-            </div>
         
+        <div id="left-side">
+          
+          <div id="left-side-content">
+            
+            <h2>
+              Price: $
+              <div id="price"></div>
+            </h2>
+            
+            <h2>
+              Down-Payment: $
+              <div id="down-payment"></div>
+            </h2>
+
+            <h1 class="center">PAYMENTS</h1>
+
+            
+            <div class="slidecontainer">
+              <input type="range" min="1" max="24" value="50" class="slider" id="myRange">
+    
+              
+            </div>
+
+            <br>
+
+            
+            <p class="payments">Payments: <span id="demo"></span></p>
+            
+          </div>
+          
         </div>
 
         <!--  LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -->
@@ -73,11 +87,16 @@
 
             <input id="price-box" type="text" oninput="getPrice()" />
 
-            </div>
+            <input id="down-payment-box" type="text" oninput="getDownPayment()" />
 
-        
 
+          </div>
+          
+          
+          
         </div>
+
+
 
         <!-- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -->
 
@@ -88,6 +107,7 @@
       </div>
 
     </section>
+
 
     <script src="script.js"></script>
 
