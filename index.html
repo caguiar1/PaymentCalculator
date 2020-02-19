@@ -45,7 +45,7 @@
             
             
             <div class="slidecontainer">
-              <input type="range" min="1" max="60" class="slider" id="myRange">
+              <input type="range" min="1" max="60" class="slider" id="paymentSlider">
               
               
             </div>
@@ -53,7 +53,11 @@
             <br>
             
             
-            <p class="payments">Payments: <span id="demo"></span></p>
+            <h2 class="payments">Payments: </h2>
+
+            <h2>Interest % Per Month </h2>
+            
+
             
           </div>
           
@@ -71,44 +75,51 @@
         <div id="middle-divider1"></div>
         
         
-        <div id="payment">
-
+        <!-- <div id="payment">
+          
           <h1 class="center">PAYMENTS</h1>
-
-        </div>
+          
+        </div> -->
         
         
         <!-- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -->
-
-
-
-
-
-        <!-- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -->
-
+        
+        
+        
+        
+        
+        <!-- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -->
+        
         <div id="right-side">
-
-            <div id="right-side-content">
-
+          
+          <div id="right-side-content">
+            
             <input id="price-box" type="text" oninput="getPrice()" />
-
+            
             <input id="down-payment-box" type="text" oninput="getDownPayment()" />
 
+            <div id="creature"></div>
+            
+            <h2 id="paymentValue"></h2>
 
+            <!-- <br> -->
+
+            <input id="interest-rate-box" type="text" oninput="getInterestRate()" placeholder="A Percentage"/>
+            
           </div>
           
           
           
         </div>
-
-
-
-        <!-- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -- LEFT SIDE OF PAGE -->
-
         
-
-
-
+        
+        
+        <!-- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -->
+        
+        
+        
+        
+        
       </div>
 
     </section>

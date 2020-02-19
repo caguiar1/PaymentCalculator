@@ -5,19 +5,13 @@ body {
   font-size: 1.1em;
 }
 
-h1 .center{
-   
-    z-index: 999;
-    align-content: center;
-    text-align: center;
-    
-    
+#creature{
+  height: 25px;
+  padding: 4px 15px;
 }
 
-#payment{
-  display: inline-block;
-  width: 100%;
-  text-align: center;
+#paymentValue{
+  padding-bottom: 5%;
 }
 
 
@@ -48,8 +42,8 @@ input {
 
 /* SLIDER */
 .payments {
+  font-size: 26px;
   font-family: "Roboto";
-  font-size: 1.1em;
   z-index: 99;
 }
 

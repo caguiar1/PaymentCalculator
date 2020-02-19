@@ -17,13 +17,16 @@ function getDownPayment(){
 
 }
 
-let slider = document.getElementById("myRange");
-let output = document.getElementById("demo");
+// READ SLIDER
+let slider = document.getElementById("paymentSlider");
+let output = document.getElementById("paymentValue");
 output.innerHTML = slider.value;
 
 slider.oninput = function() {
   output.innerHTML = this.value;
 }
+
+
 
 
 
