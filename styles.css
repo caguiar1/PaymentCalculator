@@ -48,6 +48,7 @@ input {
 }
 
 .slidecontainer {
+  margin-left: 1%;
   width: 25vw;
   font-family: "Roboto";
   z-index: 10;
@@ -164,6 +165,6 @@ input {
 
 /* BOTTOM OF PAGE */
 
-/* #bottomOfPage{
-
-} */
+#their-downpayment{
+  margin-bottom: 20px;
+}

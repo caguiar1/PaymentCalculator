@@ -59,7 +59,13 @@
 
               <!-- BOTTOM OF PAGE BEGINS -->
 
-              <br>             
+              <h2>Intitial Down-Payment:</h2>
+
+              <h2>Payment per Month:</h2>
+
+              <br>
+
+              <h2>Time Until Fully Paid Off:</h2>
 
             
 
@@ -93,32 +99,39 @@
           <div id="right-side-content">
             
             <input id="price-box" type="number" min="0" max="10000000000000" oninput="getPrice()" placeholder="Price of the Item"/>
-
+            
             <div id="animal">
-
-
+              
+              
               <input id="down-payment-box" type="number" min="0" max="10000000000000" oninput="getDownPayment()" placeholder="Percentage of Price" /> %
-
+              
             </div>
             
-
+            
             <div id="creature"></div>
             
             <h2 id="paymentValue"></h2>
-
+            
             <!-- <br> -->
-
+            
             <div id="animal">
-
-            <input id="interest-rate-box" type="number" min="0" max="10000000000000" oninput="getInterestRate()" placeholder="A Percentage"/> %
-
+              
+              <input id="interest-rate-box" type="number" min="0" max="10000000000000" oninput="getInterestRate()" placeholder="A Percentage"/> %
+              
             </div>
+            
+            <!-- BOTTOM OF PAGE BEGINS -->
+            
+            <br> 
 
-              <!-- BOTTOM OF PAGE BEGINS -->
+            <input id="their-downpayment"  READONLY  type="text" oninput="" placeholder="Person's Downpayment"/>
 
-              <br> 
+            <input id="their-payment-per-month"  READONLY  type="text" oninput="" placeholder="Payment per Month"/>
 
-           
+            <br><br><br><br>
+
+            <input id="fully-paid-off"  READONLY  type="text" oninput="" placeholder="Time Until Paid Off"/>
+            
             
           </div>
           
@@ -130,21 +143,20 @@
         
         <!-- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -->
         
-        
-        <!-- <div id="bottomOfPage">
-
-        </div> -->
+        <div id="bottomOfPage"></div>
         
         
-
-
+        
+        
+        
       </div>
-
+      
     </section>
-
-
+    
+    
     <script src="script.js"></script>
-
+    
   </body>
-
-</html>
+  
+  </html>
+  
