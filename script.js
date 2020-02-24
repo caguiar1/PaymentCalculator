@@ -17,6 +17,14 @@ function getDownPayment(){
 
 }
 
+function getInterestRate(){
+
+    let interestRate = document.getElementById("interest-rate-box").value;
+
+    console.log("Interest Rate is: " + interestRate);
+
+}
+
 // READ SLIDER
 let slider = document.getElementById("paymentSlider");
 let output = document.getElementById("paymentValue");

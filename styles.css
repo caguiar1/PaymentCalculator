@@ -11,7 +11,7 @@ body {
 }
 
 #paymentValue{
-  padding-bottom: 5%;
+   /* margin */
 }
 
 
@@ -120,6 +120,8 @@ input {
 
 #right-side-content {
   display: inline-block;
+  font-family: "Roboto";
+
 }
 
 /* CALCULATOR BEGINS */
@@ -152,3 +154,16 @@ input {
   padding-top: 0.5%;
   font-size: 150%;
 }
+
+#animal{
+  font-size: 1.1em;
+  font-size: 26px;
+  font-weight: bold;
+  
+}
+
+/* BOTTOM OF PAGE */
+
+/* #bottomOfPage{
+
+} */

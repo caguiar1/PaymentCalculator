@@ -37,7 +37,7 @@
             </h2>
             
             <h2>
-              Down-Payment: $
+              Down-Payment:
               <div id="down-payment"></div>
             </h2>
 
@@ -53,12 +53,16 @@
             <br>
             
             
-            <h2 class="payments">Payments: </h2>
+            <h2 class="payments">Total Payments: </h2>
 
-            <h2>Interest % Per Month </h2>
+            <h2>Interest % Per Month: </h2>
+
+              <!-- BOTTOM OF PAGE BEGINS -->
+
+              <br>             
+
             
 
-            
           </div>
           
         </div>
@@ -75,12 +79,6 @@
         <div id="middle-divider1"></div>
         
         
-        <!-- <div id="payment">
-          
-          <h1 class="center">PAYMENTS</h1>
-          
-        </div> -->
-        
         
         <!-- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -- MIDDLE DIVIDER -->
         
@@ -94,9 +92,15 @@
           
           <div id="right-side-content">
             
-            <input id="price-box" type="text" oninput="getPrice()" />
+            <input id="price-box" type="number" min="0" max="10000000000000" oninput="getPrice()" placeholder="Price of the Item"/>
+
+            <div id="animal">
+
+
+              <input id="down-payment-box" type="number" min="0" max="10000000000000" oninput="getDownPayment()" placeholder="Percentage of Price" /> %
+
+            </div>
             
-            <input id="down-payment-box" type="text" oninput="getDownPayment()" />
 
             <div id="creature"></div>
             
@@ -104,7 +108,17 @@
 
             <!-- <br> -->
 
-            <input id="interest-rate-box" type="text" oninput="getInterestRate()" placeholder="A Percentage"/>
+            <div id="animal">
+
+            <input id="interest-rate-box" type="number" min="0" max="10000000000000" oninput="getInterestRate()" placeholder="A Percentage"/> %
+
+            </div>
+
+              <!-- BOTTOM OF PAGE BEGINS -->
+
+              <br> 
+
+           
             
           </div>
           
@@ -117,9 +131,13 @@
         <!-- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -- RIGHT SIDE OF PAGE -->
         
         
+        <!-- <div id="bottomOfPage">
+
+        </div> -->
         
         
-        
+
+
       </div>
 
     </section>
