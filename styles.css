@@ -168,3 +168,7 @@ input {
 #their-downpayment{
   margin-bottom: 20px;
 }
+
+input, select, textarea {
+  font:14px/1.5"Roboto";
+  }

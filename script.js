@@ -6,6 +6,7 @@ function getPrice(){
 
     console.log("Price is: " + price);
 
+    calculateAll();
 
 }
 
@@ -15,6 +16,8 @@ function getDownPayment(){
 
     console.log("Downpayment is: " + downpayment);
 
+    calculateAll();
+
 }
 
 function getInterestRate(){
@@ -23,7 +26,11 @@ function getInterestRate(){
 
     console.log("Interest Rate is: " + interestRate);
 
+    calculateAll();
+
 }
+
+
 
 // READ SLIDER
 let slider = document.getElementById("paymentSlider");
@@ -32,7 +39,46 @@ output.innerHTML = slider.value;
 
 slider.oninput = function() {
   output.innerHTML = this.value;
+  calculateAll();
 }
+
+
+
+// Math For Bottom Begins
+
+
+
+function calculateAll(){
+    let price = document.getElementById("price-box").value;
+    let downpaymentPercentage = (document.getElementById("down-payment-box").value) / 100;
+    let downpayBox = document.getElementById("their-downpayment");
+
+
+    // DOWNPAYMENT CALCULATION
+
+
+    let initialDownPayment = price * downpaymentPercentage;
+
+    let downPayFixed = initialDownPayment.toFixed(2);
+
+    downpayBox.value = downPayFixed;
+
+
+
+    // PAYMENT PER MONTH
+//  price - downpayment / payments
+
+    let paymentPerMonth = (price - downPayFixed) / slider.value;
+
+    let paymentPerMonthFixed = paymentPerMonth.toFixed(2);
+
+    
+
+    console.log(paymentPerMonthFixed)
+
+
+}
+
 
 
 
