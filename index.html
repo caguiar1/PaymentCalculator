@@ -55,15 +55,17 @@
             
             <h2 class="payments">Total Payments: </h2>
 
-            <h2>Interest % Per Month: </h2>
+            <!-- <h2>Interest % Per Month: </h2> -->
 
               <!-- BOTTOM OF PAGE BEGINS -->
 
               <h2>Intitial Down-Payment:</h2>
+              
+              <br>
 
               <h2>Payment per Month:</h2>
 
-              <br>
+              <!-- <br> -->
 
               <h2>Time Until Fully Paid Off:</h2>
 
@@ -98,12 +100,12 @@
           
           <div id="right-side-content">
             
-            <input id="price-box" type="number" min="0" max="10000000000000" oninput="getPrice()" placeholder="Price of the Item"/>
+            <input id="price-box" type="number" min="0" max="10000000000000" oninput="calculateAll()" placeholder="Price of the Item"/>
             
             <div id="animal">
               
               
-              <input id="down-payment-box" type="number" min="0" max="10000000000000" oninput="getDownPayment()" placeholder="Percentage of Price" /> %
+              <input id="down-payment-box" type="number" min="0" max="10000000000000" oninput="calculateAll()" placeholder="A Percentage" /> %
               
             </div>
             
@@ -116,7 +118,7 @@
             
             <div id="animal">
               
-              <input id="interest-rate-box" type="number" min="0" max="10000000000000" oninput="getInterestRate()" placeholder="A Percentage"/> %
+              <input id="their-downpayment"  READONLY  type="number" placeholder="Person's Downpayment"/>
               
             </div>
             
@@ -124,14 +126,13 @@
             
             <br> 
 
-            <input id="their-downpayment"  READONLY  type="number" placeholder="Person's Downpayment"/>
 
             <input id="their-payment-per-month"  READONLY  type="number" placeholder="Payment per Month"/>
 
-            <br><br><br><br>
+            <!-- <br><br><br><br> -->
 
 
-            <input id="fully-paid-off"  READONLY  type="number" placeholder="Time Until Paid Off"/>
+            <input id="fully-paid-off"  READONLY  type="text" placeholder="Time Until Paid Off"/>
             
             
           </div>

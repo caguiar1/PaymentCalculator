@@ -10,10 +10,6 @@ body {
   padding: 4px 15px;
 }
 
-#paymentValue{
-   /* margin */
-}
-
 
 /* CSS For Inputs */
 
@@ -131,8 +127,8 @@ input {
 
 #calculator {
   display: inline-block;
-  margin: 1% 32.5% 1% 32.5%;
-  height: 80vh;
+  margin: 5% 32.5% 1% 32.5%;
+  height: 70vh;
   width: 30vw;
   background-color: #aed9e0;
   border: #5e6472 solid 8px;
@@ -143,7 +139,7 @@ input {
 #innerBox {
   float: center;
   margin-left: 3.5%;
-  height: 75vh;
+  height: 65vh;
   width: 27.5vw;
   text-align: left;
 }
